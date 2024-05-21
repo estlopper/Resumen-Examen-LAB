@@ -1,55 +1,43 @@
+# Backend
+
 ### Seeders
 
 - **Descripción**: Se utilizan para poblar la base de datos con datos iniciales o de prueba.
 - **Uso**: Archivos que crean registros de ejemplo para restaurantes, menús y dueños de restaurantes.
-- **Ejemplo**: Un seeder puede insertar un conjunto de restaurantes iniciales con nombres, ubicaciones y detalles básicos.
+- No es necesario modificar los seeders si se pone un valor por defecto al nuevo atributo en el order.
 
-### Orders
+### Models
 
-- **Descripción**: Maneja la lógica relacionada con la gestión de pedidos en los restaurantes.
-- **Uso**: Contiene modelos y controladores que gestionan la creación, actualización y seguimiento de pedidos.
-- **Ejemplo**: Un archivo en esta carpeta define cómo se crea un nuevo pedido y se actualiza su estado.
+- **Descripción**: Donde se crean los datos que irán en la base de datos siguiendo el diagrama de clases .
+- Si hay que añadir algún atributo nuevo hay que modificar el modelo correspondiente.
 
 ### Migrations
 
 - **Descripción**: Manejan los cambios en la estructura de la base de datos a lo largo del tiempo.
 - **Uso**: Definen cómo crear y modificar tablas en la base de datos para almacenar datos de restaurantes, menús y usuarios.
-- **Ejemplo**: Una migración puede crear una tabla `restaurants` con columnas como `id`, `name`, `address`, y `owner_id`.
+- Si hay que añadir algún atributo nuevo hay que modificar la migración correspondiente.
 
 ### Controller
 
 - **Descripción**: Manejan las solicitudes entrantes, procesan la lógica de negocio y devuelven las respuestas adecuadas.
-- **Uso**: Controladores para gestionar las operaciones CRUD de restaurantes y menús.
-- **Ejemplo**: Un `RestaurantController` con métodos como `createRestaurant`, `getRestaurant`, `updateRestaurant`, y `deleteRestaurant`.
+- **Uso**: Controladores para gestionar las operaciones CRUD.
+- En el simulacro es una const promote = async function (req, res) que modifica el valor del atributo de promoción.
 
 ### Validation
 
-- **Descripción**: Aseguran que los datos entrantes cumplan con ciertos criterios antes de ser procesados por los controladores.
-- **Uso**: Reglas para validar datos como el nombre del restaurante, dirección y horarios.
-- **Ejemplo**: Un archivo de validación puede comprobar que el nombre del restaurante no esté vacío y que la dirección tenga un formato válido.
+- **Descripción**: Aseguran que los **datos entrantes** cumplan con ciertos criterios antes de ser procesados por los controladores.
+- **Uso**: Reglas para validar datos como el nombre del restaurante, dirección, etc.
+- En el simulacro se añade un nuevo check al que se le pasa una función y comprueba que solo haya un restaurante promocionado del mismo dueño.
 
 ### Middleware
 
 - **Descripción**: Funciones que se ejecutan antes o después de las solicitudes a los controladores, utilizadas para tareas como autenticación y autorización.
 - **Uso**: Middleware para verificar si el usuario está autenticado y tiene permisos de dueño de restaurante.
-- **Ejemplo**: Un `authMiddleware` que comprueba si el usuario ha iniciado sesión y tiene el rol de "owner".
+- En el simulacro no se usa.
 
 ### Routes
 
-- **Descripción**: Definen los endpoints de la API y especifican qué controlador y método deben manejar cada solicitud.
+- **Descripción**: Definen los **endpoints** de la API y especifican qué controlador y método deben manejar cada solicitud.
 - **Uso**: Configuración de rutas para las operaciones CRUD relacionadas con restaurantes, menús y pedidos.
-- **Ejemplo**: Una ruta `/api/restaurants` que maneja solicitudes GET para listar restaurantes, POST para crear uno nuevo, PUT para actualizar un restaurante existente y DELETE para eliminar uno.
+- En el simulacro se crea una nueva ruta app.route('/restaurants/:restaurantId/promote') y se comprueban las correspondientes restricciones.
 
-```javascript
-// routes/restaurantRoutes.js
-const express = require('express');
-const router = express.Router();
-const RestaurantController = require('../controllers/RestaurantController');
-const authMiddleware = require('../middleware/authMiddleware');
-
-router.get('/', authMiddleware, RestaurantController.getRestaurants);
-router.post('/', authMiddleware, RestaurantController.createRestaurant);
-router.put('/:id', authMiddleware, RestaurantController.updateRestaurant);
-router.delete('/:id', authMiddleware, RestaurantController.deleteRestaurant);
-
-module.exports = router;
