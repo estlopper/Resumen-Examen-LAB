@@ -1,11 +1,3 @@
-# Restaurantes SPA
-
-Este repositorio contiene una Single Page Application (SPA) para la gestión de restaurantes, que incluye tanto el backend como el frontend. La aplicación permite a los dueños de restaurantes gestionar la información de sus establecimientos.
-
-## Estructura del Proyecto
-
-El proyecto está organizado en varias carpetas, cada una con responsabilidades específicas.
-
 ### Seeders
 
 - **Descripción**: Se utilizan para poblar la base de datos con datos iniciales o de prueba.
