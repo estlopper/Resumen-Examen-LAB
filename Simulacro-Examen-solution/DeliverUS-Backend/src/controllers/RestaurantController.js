@@ -104,14 +104,14 @@ const promote = async function (req, res) {
   const t = await sequelizeSession.transaction()
   try {
     const existingPromotedRestaurant = await Restaurant.findOne({where: {userId: req.user.id, promoted: true}})
-    if (existingPromotedRestaurant) {
+    if (existingPromotedRestaurant) { // el restaurante que estaba promocionado deja de estarlo
       await Restaurant.update(
         {promoted: false},
         {where: {id: existingPromotedRestaurant.id}},
         {transaction: t}
       )
     }
-    await Restaurant.update(
+    await Restaurant.update( // el restaurante que se pasa por parámetros se pone como promocionado
       {promoted: true},
       {where: {id: req.params.restaurantId}},
       {transaction: t}      
