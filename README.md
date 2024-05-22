@@ -47,14 +47,14 @@
 
 ### Endpoints
 
-- Donde se obtiene la información del backend
+- **Descripción**: Donde se obtiene la información del backend
 - **Casos**
     - /api/restaurantes
     - Si creo un create en el controller llamo al post aquí
  
 ### Stack
 
-- Donde se 'enlazan' dos screens para poder navegar entre ellas
+- **Descripción**: Donde se 'enlazan' dos screens para poder navegar entre ellas
 
 
 
