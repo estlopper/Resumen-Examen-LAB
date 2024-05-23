@@ -41,10 +41,10 @@
 - **Casos**
     - En el simulacro se crea una nueva ruta app.route('/restaurants/:restaurantId/promote') y se comprueban las correspondientes restricciones.
     - Si creo una nueva función en el controller como puede ser create, tengo que llamarla con .post(RestaurantCategoryController.create)
-  GET: Recuperar datos del servidor.
-  POST: Enviar datos al servidor para crear un nuevo recurso.
-  PUT: Enviar datos al servidor para actualizar un recurso existente, reemplazando su contenido por completo.
-  PATCH: Actualizar parcialmente un recurso existente. Se usa cuando solo necesitas modificar una parte del recurso en lugar de reemplazarlo completamente.
+  - GET: Recuperar datos del servidor.
+  - POST: Enviar datos al servidor para crear un nuevo recurso.
+  - PUT: Enviar datos al servidor para actualizar un recurso existente, reemplazando su contenido por completo.
+  - PATCH: Actualizar parcialmente un recurso existente. Se usa cuando solo necesitas modificar una parte del recurso en lugar de reemplazarlo completamente.
 
 
 # Frontend
