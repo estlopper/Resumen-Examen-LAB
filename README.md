@@ -5,6 +5,8 @@
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
 - https://github.com/IISSI2-IS-2022-2023/Parciales.git
 
+- https://sequelize.org/master/manual/getting-started.html
+
 
 # Backend
 
