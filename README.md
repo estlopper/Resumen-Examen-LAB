@@ -1,9 +1,11 @@
-- https://github.com/estlopper/Examen-OnlineOffline.git
+- Online Offline:     https://github.com/estlopper/Examen-OnlineOffline.git
+- Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
+- Promocion: 
+- 
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
-- https://github.com/estlopper/Examen-PromocionDescuento.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
 - https://github.com/IISSI2-IS-2022-2023/Parciales.git
-
+-
 - https://sequelize.org/master/manual/getting-started.html
 
 
