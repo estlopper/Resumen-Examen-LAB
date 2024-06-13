@@ -1,7 +1,8 @@
 - Online Offline:     https://github.com/estlopper/Examen-OnlineOffline.git
 - Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
-- 
+- Descuento +- 0.5%:    https://github.com/estlopper/Descuentos.git
+-
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
 - https://github.com/IISSI2-IS-2022-2023/Parciales.git
