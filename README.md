@@ -2,6 +2,8 @@
 - Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
 - Descuento +- 0.5%:    https://github.com/estlopper/Descuentos.git
+- Pinned:    https://github.com/estlopper/Pinned.git
+- Visibilidad:    https://github.com/estlopper/Visibilidad.git
 -
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
