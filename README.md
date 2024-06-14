@@ -19,7 +19,7 @@
 
 - **Descripción**: Se utilizan para poblar la base de datos con datos iniciales o de prueba.
 - **Casos**
-    - No es necesario modificar los seeders si se pone un valor por defecto al nuevo atributo en el order.
+    - No es necesario modificar los seeders si se pone un valor por defecto al nuevo atributo en el model.
 
 ### Models
 
