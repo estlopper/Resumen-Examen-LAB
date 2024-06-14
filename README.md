@@ -8,6 +8,7 @@
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
 - https://github.com/IISSI2-IS-2022-2023/Parciales.git
+- https://github.com/IISSI2-IS-2024/Soluciones-examen-junio-2024.git
 -
 - https://sequelize.org/master/manual/getting-started.html
 
