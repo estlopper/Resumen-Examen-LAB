@@ -1,12 +1,12 @@
 - Online Offline:     https://github.com/estlopper/Examen-OnlineOffline.git
-        -- Boton para alternar estados y middleware para comprobar regla general 
+  - Boton para alternar estados y middleware para comprobar regla general 
 - Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
-        -- Promocionar desde creación o edición, pero solo puede haber uno
-        -- Ordenados por promoción (Mirar en solucion del profesor)
-        -- Botón para alternar promocionado
+  - Promocionar desde creación o edición, pero solo puede haber uno
+  - Ordenados por promoción (Mirar en solucion del profesor)
+  - Botón para alternar promocionado
 - Nuevas Categorias: https://github.com/estlopper/Nuevas-Categorias.git
-        -- Nueva pantalla de creación de categoría
+  - Nueva pantalla de creación de categoría
 - Descuento +- 0.5%:    https://github.com/estlopper/Descuentos.git
 - Pinned:    https://github.com/estlopper/Pinned.git
 - Visibilidad:    https://github.com/estlopper/Visibilidad.git
