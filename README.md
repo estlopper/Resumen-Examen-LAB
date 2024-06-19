@@ -2,7 +2,7 @@
   - Boton para alternar estados y middleware para comprobar regla general 
 - Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
-  - Promocionar desde creación o edición, pero solo puede haber uno
+  - Promocionar desde creación o botón, pero solo puede haber uno promocionado 
   - Ordenados por promoción (Mirar en solucion del profesor)
   - Botón para alternar promocionado
 - Nuevas Categorias: https://github.com/estlopper/Nuevas-Categorias.git
