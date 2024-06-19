@@ -9,6 +9,11 @@
   - Botón para alternar promocionado
 - Nuevas Categorias: https://github.com/estlopper/Nuevas-Categorias.git
   - Nueva pantalla de creación de categoría
+- Ordenados Por Precio: https://github.com/IISSI2-IS-2022-2023/Parciales/tree/sortProductsByPriceSolution
+  - Botón para ordenar por defecto o para ordenar por precio
+- Codigos de descuento: https://github.com/IISSI2-IS-2022-2023/Parciales/tree/restaurantDiscountCodes
+  - Se pueden crear un codigo y un descuento desde la pantalla de creacion
+  - Este codigo aparece en el titulo del restaurante
 - Descuento +- 0.5%:    https://github.com/estlopper/Descuentos.git
 - Pinned:    https://github.com/estlopper/Pinned.git
 - Visibilidad:    https://github.com/estlopper/Visibilidad.git
