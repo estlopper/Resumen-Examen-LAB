@@ -1,6 +1,8 @@
 - Online Offline:     https://github.com/estlopper/Examen-OnlineOffline.git
   - Boton para alternar estados y middleware para comprobar regla general 
 - Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
+  - El restaurante tiene un descuento y se aplica a los productos promocionados
+  - Se pueden promocionar/despromocionar productos con un boton
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
   - Promocionar desde creación o botón, pero solo puede haber uno promocionado 
   - Ordenados por promoción (Mirar en solucion del profesor)
