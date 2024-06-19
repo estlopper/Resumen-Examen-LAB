@@ -1,28 +1,38 @@
-- Online Offline:     https://github.com/estlopper/Examen-OnlineOffline.git
-  - Boton para alternar estados y middleware para comprobar regla general 
+- Online Offline:    https://github.com/estlopper/Examen-OnlineOffline.git
+  - Boton para alternar estados y middleware para comprobar regla general
+-
 - Promocion Descuento:    https://github.com/estlopper/Examen-PromocionDescuento.git
   - El restaurante tiene un descuento y se aplica a los productos promocionados
   - Se pueden promocionar/despromocionar productos con un boton
+-
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
   - Promocionar desde creación o botón, pero solo puede haber uno promocionado 
   - Ordenados por promoción (Mirar en solucion del profesor)
   - Botón para alternar promocionado
-- Nuevas Categorias: https://github.com/estlopper/Nuevas-Categorias.git
+-
+- Nuevas Categorias:    https://github.com/estlopper/Nuevas-Categorias.git
   - Nueva pantalla de creación de categoría
-- Ordenados Por Precio: https://github.com/IISSI2-IS-2022-2023/Parciales/tree/sortProductsByPriceSolution
+-
+- Ordenados Por Precio:    https://github.com/IISSI2-IS-2022-2023/Parciales/tree/sortProductsByPriceSolution
   - Botón para ordenar por defecto o para ordenar por precio
-- Codigos de descuento: https://github.com/IISSI2-IS-2022-2023/Parciales/tree/restaurantDiscountCodes
+-
+- Codigos de descuento:    https://github.com/IISSI2-IS-2022-2023/Parciales/tree/restaurantDiscountCodes
   - Se pueden crear un codigo y un descuento desde la pantalla de creacion
   - Este codigo aparece en el titulo del restaurante
+-
 - Descuento +- 0.5%:    https://github.com/estlopper/Descuentos.git
+  - En el edit aparecen dos botones, uno para incrementar y otro para decrementar un porcentaje
+  - Después del save el porcentaje se debe de aplicar a los productos
+  - Debe aparecer un texto en aquellos donde se haya aplicado el porcentaje
 - Pinned:    https://github.com/estlopper/Pinned.git
+- 
 - Visibilidad:    https://github.com/estlopper/Visibilidad.git
 -
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
 - https://github.com/IISSI2-IS-2022-2023/Parciales.git
 - https://github.com/IISSI2-IS-2024/Soluciones-examen-junio-2024.git
--
+- 
 - https://sequelize.org/master/manual/getting-started.html
 
 
