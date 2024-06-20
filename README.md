@@ -21,7 +21,7 @@
   - Este codigo aparece en el titulo del restaurante
 -
 - Descuento +- 0.5%:    https://github.com/estlopper/Descuentos.git
-  - En el edit aparecen **dos botones**, uno para incrementar y otro para decrementar un porcentaje
+  - En el edit **formik**, aparecen **dos botones**, uno para incrementar y otro para decrementar un porcentaje
   - Después del save el porcentaje se debe de **aplicar**
   - Debe aparecer un texto en aquellos donde se haya aplicado el porcentaje
   - Confirmation **Modal en un formik**
@@ -31,6 +31,9 @@
   - Los restaurantes fijados aparecerán arriba, **ordenados**
 - 
 - Visibilidad:    https://github.com/estlopper/Visibilidad.git
+  - Se trabaja con diferencias entre fechas
+  - Fecha en formik
+  - Uso de [Sequelize.Op....]
 -
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
