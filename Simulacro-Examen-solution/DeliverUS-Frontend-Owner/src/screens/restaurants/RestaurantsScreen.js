@@ -53,7 +53,7 @@ export default function RestaurantsScreen ({ navigation, route }) {
               </TextRegular>
           }
         </View>
-        
+
         <View style={styles.actionButtonsContainer}>
           <Pressable
             onPress={() => navigation.navigate('EditRestaurantScreen', { id: item.id })
@@ -104,9 +104,9 @@ export default function RestaurantsScreen ({ navigation, route }) {
               styles.actionButton
             ]}>
           <View style={[{ flex: 1, flexDirection: 'row', justifyContent: 'center' }]}>
-            <MaterialCommunityIcons name='octagram' color={'white'} size={20}/>
+            <MaterialCommunityIcons name= {item.promoted ? 'star' : 'star-outline'} color={'white'} size={20}/>
             <TextRegular textStyle={styles.text}>
-              Promote
+              {item.promoted ? 'Demote' : 'Promote'}
             </TextRegular>
           </View>
         </Pressable>
