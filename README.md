@@ -7,14 +7,15 @@
 -
 - Promocion:    https://github.com/estlopper/Examen-Promocion.git
   - Promocionar desde creación con un **switch** pero solo puede haber uno promocionado 
-  - Ordenados por promoción (Mirar en solucion del profesor)
+  - **Ordenados** por promoción (Mirar en solucion del profesor)
   - **Botón** para alternar promocionado
 -
 - Nuevas Categorias:    https://github.com/estlopper/Nuevas-Categorias.git
   - Nueva **screen** de creación de categoría
+  - Se añade el route en la screen
 -
 - Ordenados Por Precio:    https://github.com/IISSI2-IS-2022-2023/Parciales/tree/sortProductsByPriceSolution
-  - **Botón** para ordenar por defecto o para ordenar por precio
+  - **Botón** para **ordenar** por defecto o para ordenar por precio
 -
 - Codigos de descuento:    https://github.com/IISSI2-IS-2022-2023/Parciales/tree/restaurantDiscountCodes
   - Se pueden crear un codigo y un descuento desde la pantalla de creacion
@@ -33,7 +34,7 @@
 - Visibilidad:    https://github.com/estlopper/Visibilidad.git
   - Se trabaja con diferencias entre fechas
   - Fecha en formik
-  - Uso de [Sequelize.Op....]
+  - Uso de **[Sequelize.Op....]**
 -
 - https://github.com/IISSI2-IS-2024/proyecto-de-curso-xwg5759.git
 - https://github.com/IISSI2-IS-2024/Simulacro-Examen.git
