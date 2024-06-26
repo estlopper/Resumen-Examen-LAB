@@ -32,7 +32,7 @@
   - Los restaurantes fijados aparecerán arriba, **ordenados**
 - 
 - Visibilidad:    https://github.com/estlopper/Visibilidad.git
-  - Se trabaja con diferencias entre fechas
+  - Se trabaja con diferencias entre fechas y redondeo de las fechas
   - Fecha en formik
   - Uso de **[Sequelize.Op....]**
 -
