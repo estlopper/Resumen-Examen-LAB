@@ -51,6 +51,10 @@
   - Se añade un texto aleatorio que puede variar entre 5 opciones
   - Se añade un botón para cambiar de color y otro para cambiar de tamaño de fuente
   - Se añade el botón de mostrar/ocultar contraseña
+-
+- Mensaje para fans:    https://github.com/estlopper/Mensaje-para-fans.git
+  - Se añade un texto que cambia de color cada segundo
+  - El texto no ocupará espacio si no existe
 
 
 # Backend
