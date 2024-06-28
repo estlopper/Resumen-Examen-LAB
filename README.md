@@ -45,6 +45,12 @@
 - https://sequelize.org/master/manual/getting-started.html
 
 - Restaurantes Económicos:    https://github.com/estlopper/Restaurantes-Economicos
+- 
+- Mejoras de Ecosistema:    https://github.com/estlopper/Mejoras-de-Ecosistema.git
+  - Se añade un retardo de 650 ms
+  - Se añade un texto aleatorio que puede variar entre 5 opciones
+  - Se añade un botón para cambiar de color y otro para cambiar de tamaño de fuente
+  - Se añade el botón de mostrar/ocultar contraseña
 
 
 # Backend
