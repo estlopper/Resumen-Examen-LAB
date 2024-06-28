@@ -44,6 +44,8 @@
 - 
 - https://sequelize.org/master/manual/getting-started.html
 
+- Restaurantes Económicos:    https://github.com/estlopper/Restaurantes-Economicos
+
 
 # Backend
 
