@@ -57,6 +57,10 @@
   - El texto no ocupará espacio si no existe
 
 
+
+const primerDestacado = await Product.findOne({ where: { destacado: true }, order: [['createdAt', 'ASC']] })
+
+
 # Backend
 
 ### Seeders
