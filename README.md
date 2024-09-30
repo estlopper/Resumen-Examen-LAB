@@ -62,8 +62,9 @@ const primerDestacado = await Product.findOne({ where: { destacado: true }, orde
 
 # ERRORES COMUNES
   - Si el botón/confirmationModal funciona pero el patch da error y no se puede hacer la función de dicho botón como por ejemplo fijar un restaurante, seguramente en el error esté en la función del controller.
-  - Mirar que en el validation se importe el modelo como '../../models/models.js'  
-
+  - Mirar que en el validation se importe el modelo como '../../models/models.js'
+  - El findByPK() lleva en los paréntesis esto: (req.params.restaurantId)  y **no** lleva esto: ({ where: { id: req.params.restaurantId } })
+*
 # Backend
 
 ### Seeders
