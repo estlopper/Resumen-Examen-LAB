@@ -27,6 +27,7 @@
   - Debe aparecer un texto en aquellos donde se haya aplicado el porcentaje
   - Confirmation **Modal en un formik**
   - Se modifica el update del controller
+  - Accedes a los **productos** en el update del **RestaurantController**
 -
 - Pinned:    https://github.com/estlopper/Pinned.git
   - Se pueden fijar restaurantes desde la creación con un **switch** o desde un botón
