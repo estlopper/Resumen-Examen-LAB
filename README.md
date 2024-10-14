@@ -66,6 +66,8 @@ const primerDestacado = await Product.findOne({ where: { destacado: true }, orde
   - Mirar que en el validation se importe el modelo como '../../models/models.js'
   - El findByPK() lleva en los paréntesis esto: (req.params.restaurantId)  y **no** lleva esto: ({ where: { id: req.params.restaurantId } })
   - Pueden no aparecer las cosas en el frontend por no importar el modelo en el controller aunque no salte el error en el visual
+  - Si el problema es crear una nueva pantalla de creación de actuaciones por ejemplo, y sale el frontend en blanco probar a comentar el screen de creación para ver si sale bien y los botones tb(aunque no funcionen). A continuación mirar que se importen bien las cosas, por ejemplo no suele notificarse el error pero hace que no se cree la pantalla -->>> import { Pressable, ScrollView, StyleSheet, View } from 'react-native' hay que importar el StyleSheet
+  - El navigate a RestaurantsScreen es así navigation.navigate('RestaurantsScreen', { dirty: true }), no hay que pasar ningún ID
 *
 # Backend
 
