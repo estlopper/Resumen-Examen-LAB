@@ -1,3 +1,10 @@
+- Performances (Examen más completo de todos):    https://github.com/estlopper/SegundaConvo-Performances
+  - **Nuevo modelo** creado desde cero con controllador, migration, middleware, validation y ruta
+  - Creación de **nueva screen** de creación
+  - Añadir la **relación 1..N** en el modelo
+  - Mostrar actuaciones **ordenadas por fecha** y sólo **si se van a dar en una semana**
+  - **No** se pueden crear dos actuaciones en la **misma fecha** 
+-
 - Online Offline:    https://github.com/estlopper/Examen-OnlineOffline.git
   - **Boton** para alternar estados y middleware para comprobar regla general
 -
