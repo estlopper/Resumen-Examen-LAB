@@ -77,6 +77,7 @@ const primerDestacado = await Product.findOne({ where: { destacado: true }, orde
   - El navigate a RestaurantsScreen es así navigation.navigate('RestaurantsScreen', { dirty: true }), no hay que pasar ningún ID
   - En el archivo routes el controller tiene que importarse obligatoriamente así import PerformanceController from '../controllers/PerformanceController.js'
   - Una fecha en el frontend hay que mostrarla así appointment.toLocaleDateString()
+  - Una fecha en el validation se hace asi check('appointment').exists().toDate()
   - Estoy accediendo en el frontend a todas las performances o a todos los productos de un restaurante, para ello en restaurant controller tengo que incluirlo en los 3 index para que desde el frontend pueda llamarlo como performances (lista de performance)
 
 
