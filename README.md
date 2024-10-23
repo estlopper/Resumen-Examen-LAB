@@ -90,5 +90,7 @@ const primerDestacado = await Product.findOne({ where: { destacado: true }, orde
   - Una fecha en el validation se hace asi check('appointment').exists().toDate()
   -
   - Estoy accediendo en el frontend a todas las performances o a todos los productos de un restaurante, para ello en restaurant controller tengo que incluirlo en los 3 index para que desde el frontend pueda llamarlo como performances (lista de performance)
+  -
+  - Para iterar sonbre los elementos y no sobre los indices del array hay que usar el of, const performance of performances, asi performance sera un objeto de tipo Performance, y no un índice. 
 
 
