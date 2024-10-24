@@ -70,6 +70,8 @@ const primerDestacado = await Product.findOne({ where: { destacado: true }, orde
 
 # ERRORES COMUNES
   - Si el botón/confirmationModal funciona pero el patch da error y no se puede hacer la función de dicho botón como por ejemplo fijar un restaurante, seguramente en el error esté en la función del controller.
+  -
+  - Si el botón funciona pero hay que refrescar la pagina para que haga efecto, poner depues de su llamada en la función el fetch, por ejemplo si el boton en el onPress llama a una función que llama a la del Endpoint, en esa función meter el await fetchRestaurantDetail()
   - 
   - Mirar que en el validation se importe el modelo como '../../models/models.js'
   -
